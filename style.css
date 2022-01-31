@@ -1,0 +1,56 @@
+#background {
+  background-image: url(https://images.unsplash.com/photo-1619689350646-e6e70e40ed83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+}
+
+.center {
+  text-align: center;
+}
+#inp{
+    border-radius: 5px;
+}
+#btn {
+  font-family: "Cairo", sans-serif;
+
+  background-color: green;
+  border-radius: 10%;
+}
+#middle {
+  margin-top: 15%;
+  height: 200px;
+}
+
+#bottom {
+  margin-top: 15%;
+}
+
+.text {
+  font-family: "Cairo", sans-serif;
+}
+
+#img {
+  border-radius: 35%;
+  width: 45%;
+}
+
+.fail{
+    background-image: url(https://i.gifer.com/3XC.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.success{
+    background-image: url(https://i.gifer.com/S5q.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#help{
+  height: 30px;
+  color: firebrick;
+}
