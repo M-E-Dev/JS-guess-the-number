@@ -2,6 +2,10 @@ let message = document.querySelector("#middle");
 let help = document.querySelector("#help");
 let button = document.querySelector("#submitguess");
 let attempt = document.querySelector("#attempt");
+let again = document.querySelector("#again");
+again.addEventListener("click", ()=>{
+  location.reload()
+})
 let guessArea = document.getElementById("inp");
 let counter = 0;
 let number = Math.floor(Math.random() * 100 + 1);
@@ -15,14 +19,17 @@ const guessFunc = () => {
     message.classList.add("fail");
     help.innerHTML = "Try little low!";
     counter++;
+    guessArea.value = ""
   } else if (number > guess) {
     message.classList.add("fail");
     help.innerHTML = "Try little high!";
     counter++;
+    guessArea.value = ""
   } else if (number == guess) {
     message.classList.add("success");
     help.innerHTML = "Absolutely true! Congrats!";
     counter++;
+    guessArea.value = ""
   }
   attempt.innerText = counter;
 }
