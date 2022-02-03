@@ -1,1 +1,0 @@
-# JS-guess-the-number

@@ -13,12 +13,12 @@
 .center {
   text-align: center;
 }
-#inp{
-    border-radius: 5px;
+#inp {
+  border-radius: 5px;
+  font-size: xx-large;
 }
 #btn {
   font-family: "Cairo", sans-serif;
-
   background-color: green;
   border-radius: 10%;
 }
@@ -40,26 +40,30 @@
   width: 45%;
 }
 
-.fail{
-    background-image: url(https://i.gifer.com/3XC.gif);
-    background-repeat: no-repeat;
-    background-position-x: center;
+.fail {
+  background-image: url(https://i.gifer.com/3XC.gif);
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
-.success{
-    background-image: url(https://i.gifer.com/S5q.gif);
-    background-repeat: no-repeat;
-    background-position-x: center;
+.success {
+  background-image: url(https://i.gifer.com/S5q.gif);
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
-#help{
+#help {
   height: 30px;
   color: firebrick;
+  font-size: xx-large;
 }
-#again{
-  color: darkorange;
-
+#again {
+  color: rgb(255, 255, 255);
 }
-#again:hover{
+#again:hover {
   transform: translate(10px);
-  color: aliceblue;
+  color: rgb(150, 7, 7);
   cursor: cell;
+}
+
+#submitguess {
+  font-size: xx-large;
 }
